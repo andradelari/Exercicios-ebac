@@ -2,7 +2,7 @@
 
             Funcionalidade: Login
             Como cliente da ebac-shop
-            Quero fazer o lagin na plataforma
+            Quero fazer o login na plataforma
             Para visualizar meus pedidos
 
             Contexto:
@@ -11,7 +11,7 @@
             Cenário: Autenticação Valida
             Quando informo o usuário "teste@ebac.com" e senha "123@ebac" então devo ser redirecionado para a tela de checkout
 
-            Esquema do cenário: Usuário inexistente
+            Esquema do Cenário: Usuário inexistente
             Quando eu digitar o <usuario> e a <senha> e clico em <entrar>
             Então deve exibir uma mensagem de alerta "Usuario ou senha inválidos"
 
@@ -20,3 +20,4 @@
             | teste@ebac.com           | 1234  |
             | cliente@ebac.com         | 5678  |
             | usuarioinvalido@ebac.com | qwer  |
+
